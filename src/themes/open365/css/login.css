@@ -384,3 +384,50 @@ body {
         padding: .6em;margin-bottom: .2em;
     }
 }
+
+/* Mobile detection */
+
+.welcome_title, .almost_there {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.welcome_title + .main_text{
+    margin-top: .5em;
+}
+
+.link-style{
+    color: #fff;
+    font-size: .875rem;
+    margin-bottom: 1.5em;
+    display: inline-block;
+}
+
+.disabled, .disabled:hover {
+    cursor: default;
+    background-color: #aaa;
+}
+
+.mobileLink .link {
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    margin-bottom: 1.3rem;
+    padding: .6em 1.2em;
+
+}
+.mobileLink .link:first-child {
+    margin-right: .5em;
+}
+
+.link__important{
+    color: #01D7D4;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+
+.ready__button{
+    text-transform: none;
+
+}

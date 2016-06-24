@@ -6,10 +6,17 @@
     <!--IE=edge: It forces the browser the render at whatever the most recent version's standards are.-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <!-- Mobile view -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
     <!--TODO: create build-->
     <title>Open365</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="themes/desktop/images/favicon.ico"/>
+
+    <!-- Login theme applied -->
+    <link rel="stylesheet" href="themes/open365/css/login.css">
+
     <!--[if lt IE 9 ]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -42,15 +49,12 @@
                 </p>
                 <p class="main_text">
                     <span id="pleaseDownload">Please download last version of</span>
-                    <a href="https://www.google.com/chrome/browser/desktop/index.html">Google Chrome</a> /
-                    <a href="https://www.mozilla.org/firefox/new/?scene=2">Mozilla Firefox</a>
+                    <a href="https://www.google.com/chrome/browser/desktop/index.html" class="link-style link__important">Google Chrome</a> /
+                    <a href="https://www.mozilla.org/firefox/new/?scene=2" class="link-style link__important">Mozilla Firefox</a>
                 </p>
             </div>
-            <div class="mobileLink">
-                <a href="/" class="link loginButton loading-button" id="notSupportedTryAgain">try again</a>
-            </div>
             <div id="desktop_version_container">
-                <a id="desktopVersionLink" href="#">Continue to the desktop version</a>
+                <a id="desktopVersionLink" href="#" class="link-style">Continue to the desktop version anyway</a>
             </div>
         </div>
     </div>

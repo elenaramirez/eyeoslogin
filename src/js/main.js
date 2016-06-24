@@ -77,9 +77,9 @@ require([
 			themeStyles = new ThemeStyles(),
 			browserDetection = new BrowserDetector();
 
-		if (window.currentPage) {
-			themeStyles.insertStyle("themes/" + window.platformSettings.theme + "/css/" + window.currentPage + ".css");
-		}
+		// if (window.currentPage) {
+		// 	themeStyles.insertStyle("themes/" + window.platformSettings.theme + "/css/login.css");
+		// }
 
 		prepare.showLoading();
 		var params = recover.getParams(location);

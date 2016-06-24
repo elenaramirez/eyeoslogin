@@ -6,10 +6,17 @@
     <!--IE=edge: It forces the browser the render at whatever the most recent version's standards are.-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <!-- Mobile view -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
     <!--TODO: create build-->
     <title>Open365</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="themes/desktop/images/favicon.ico"/>
+
+    <!-- Login theme applied -->
+    <link rel="stylesheet" href="themes/open365/css/login.css">
+
 
     <script src="js/platformSettings.js"></script>
     <!--[if lt IE 9 ]>
@@ -41,8 +48,13 @@
                 </p>
                 <p>
                     The download of Open365 shoud start in a matter of seconds. Otherwise you can click
-                    <a id="forceDownload" href="#">here</a>
+                    <a id="forceDownload" href="#" class="link-style link__important">here</a>
                 </p>
+                 <div class="btns-wrapper">
+                    <button name="Login" id="readyButton" class="loginButton loading-button ready__button"
+                            tabindex="4">I'm ready
+                    </button>
+                </div>
                 <p>
                     You can also sync your documents in your phone or tablet using Open365 mobile clients:
 
@@ -55,11 +67,7 @@
                     </div>
                 </p>
 
-                <div class="btns-wrapper">
-                    <button name="Login" id="readyButton" class="loginButton loading-button"
-                            tabindex="4">I'm ready
-                    </button>
-                </div>
+
 
             </div>
         </div>
